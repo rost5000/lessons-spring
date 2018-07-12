@@ -1,0 +1,8 @@
+.idea
+.idea/*
+.gradle
+gradle
+spring-docker/.gradle
+spring-docker/gradle
+spring-docker/build
+spring-docker/out

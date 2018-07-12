@@ -1,0 +1,8 @@
+  reportprovider:
+    image: lesson/docker-spring
+    ports:
+      #  local : container expose
+      - "8080:8080"
+    #монтирование дирректорий: (доступ внутренних дирректорий для контейнера)
+    volumes:
+      - ./spring-docker/target:/target
