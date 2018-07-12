@@ -1,5 +1,4 @@
 .idea
-.idea/*
 .gradle
 gradle
 spring-docker/.gradle
