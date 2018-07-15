@@ -5,3 +5,16 @@ spring-docker/.gradle
 spring-docker/gradle
 spring-docker/build
 spring-docker/out
+lecture4_multimodule/.gradle
+lecture4_multimodule/gradle
+lecture4_multimodule/build
+lecture4_multimodule/out
+lecture4_multimodule/eureka-client/.gradle
+lecture4_multimodule/eureka-client/gradle
+lecture4_multimodule/eureka-client/build
+lecture4_multimodule/eureka-client/out
+lecture4_multimodule/eureka-server/.gradle
+lecture4_multimodule/eureka-server/gradle
+lecture4_multimodule/eureka-server/build
+lecture4_multimodule/eureka-server/out
+*.iml

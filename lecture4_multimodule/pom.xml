@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.suai</groupId>
-    <artifactId>lectures</artifactId>
+    <artifactId>lecture4_multimodule</artifactId>
     <version>0.1</version>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-docker</module>
-        <module>lecture4_multimodule</module>
+        <module>eureka-server</module>
+        <module>eureka-client</module>
     </modules>
 </project>

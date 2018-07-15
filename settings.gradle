@@ -1,4 +1,5 @@
 rootProject.name = 'lectures'
 
 include 'spring-docker'
+include 'lecture4_multimodule'
 
