@@ -3,11 +3,13 @@ package ru.suai.eurekaclient.controller;
 import lombok.Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import ru.suai.eurekaclient.model.SimpleRespose;
+import ru.suai.eurekaclient.repository.SimpleRepository;
 
 import java.util.UUID;
 
@@ -18,6 +20,8 @@ import java.util.UUID;
 @RestController
 public class RestfulController {
     Logger logger = LoggerFactory.getLogger(RestfulController.class);
+    @Autowired
+    SimpleRepository repo;
 
 
     @RequestMapping(value = "/clientapi/simpleresponse", method = RequestMethod.GET)

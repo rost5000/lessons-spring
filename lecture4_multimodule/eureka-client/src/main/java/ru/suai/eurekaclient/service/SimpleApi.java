@@ -17,6 +17,7 @@ interface SimpleApi {
     @RequestMapping("/clientapi/simpleresponse")
     SimpleRespose getResponse(@PathVariable("id")String id,
                               @PathVariable("value")String value);
+
     @RequestMapping(method = RequestMethod.GET, value = "/clientapi/simpleresponse")
     SimpleRespose getSimpleResponse();
 }
