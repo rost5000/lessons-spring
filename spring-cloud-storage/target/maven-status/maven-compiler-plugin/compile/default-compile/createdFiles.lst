@@ -1,0 +1,4 @@
+ru\suai\cloud\GreetingController.class
+ru\suai\cloud\Application.class
+ru\suai\cloud\repository\GreetingRepository.class
+ru\suai\cloud\model\Greeting.class

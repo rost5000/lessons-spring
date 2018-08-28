@@ -20,13 +20,13 @@ public class SimpleConfig {
 
     @Bean
     @Qualifier("man")
-    Human getMan(){
+    public Human getMan(){
         return new Man();
     }
 
     @Bean
     @Qualifier("woman")
-    Human getWoman(){
+    public Human getWoman(){
         return new Woman();
     }
 }

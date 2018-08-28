@@ -1,0 +1,6 @@
+applications:
+- name: spring-cloud-client
+  instances: 1
+  services:
+  - mysql-instance-example
+path: target/spring-cloud-storage-2.0.4.RELEASE.jar

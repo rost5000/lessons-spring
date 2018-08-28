@@ -1,0 +1,11 @@
+ru\suai\eurekaclient\model\Man.class
+ru\suai\eurekaclient\service\SimpleApi.class
+ru\suai\eurekaclient\model\Human.class
+ru\suai\eurekaclient\controller\MainController.class
+ru\suai\eurekaclient\EurekaClientApplication.class
+ru\suai\eurekaclient\controller\RestfulController.class
+ru\suai\eurekaclient\model\Woman.class
+ru\suai\eurekaclient\repository\SimpleRepository.class
+ru\suai\eurekaclient\model\SimpleRespose.class
+ru\suai\eurekaclient\service\ServiceCaller.class
+ru\suai\eurekaclient\config\SimpleConfig.class

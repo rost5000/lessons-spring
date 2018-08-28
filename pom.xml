@@ -9,5 +9,8 @@
     <modules>
         <module>spring-docker</module>
         <module>lecture4_multimodule</module>
+        <module>unittesting</module>
+        <module>spring-starter-lesson</module>
+        <module>spring-cloud-storage</module>
     </modules>
 </project>
